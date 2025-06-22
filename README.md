@@ -4,7 +4,7 @@ This is a personal portfolio website for **Gaurav Mane**, showcasing education, 
 
 ## 🌐 Live Preview
 
-You can host this website on platforms like GitHub Pages, Netlify, or Vercel to view it online.
+https://gauravmane31.github.io/
 
 ## 📁 Project Structure
 
@@ -28,7 +28,9 @@ You can host this website on platforms like GitHub Pages, Netlify, or Vercel to 
 
 ## 📸 Screenshots
 
-- Desktop and mobile versions are both supported with optimized layouts.
+Phone : (https://github.com/user-attachments/assets/0a368674-99eb-4c82-a146-1f1b1a534052)
+Laptop : (https://github.com/user-attachments/assets/58d13546-d053-4411-9688-51bcab46c9cc)
+
 
 ## 🛠 Technologies Used
 
@@ -36,20 +38,6 @@ You can host this website on platforms like GitHub Pages, Netlify, or Vercel to 
 - CSS3 (including media queries)
 - JavaScript (Vanilla)
 - Google Fonts (Montserrat)
-
-## 🚀 Getting Started
-
-To run the website locally:
-
-1. Clone this repository or download the files.
-2. Place all image assets in the `Images/` folder.
-3. Open `index.html` in your browser.
-
-```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
-open index.html
-```
 
 ## 📬 Contact
 
