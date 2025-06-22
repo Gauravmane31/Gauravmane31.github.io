@@ -28,7 +28,7 @@
 
         .navbar {
             background-color: black;
-            height: 100px;
+            height: 80px;
             position: sticky;
             top: 0;
             z-index: 100;
@@ -62,9 +62,67 @@
             color: black;
         }
 
+        /* Desktop - above 1023px */
+        @media (min-width: 1024px) {
+            .hoverMenuImg {
+                display: none !important;
+            }
+
+            .hoverMenu {
+                display: none !important;
+            }
+        }
+
+        /* Mobile/Tablet - 1023px and below */
         @media (max-width: 1023px) {
             .NavBox2 {
-                display: none;
+                display: none !important;
+            }
+            #menuimg{
+                width: 40px;
+            }
+            .hoverMenuImg {
+                width: 40px;
+                height: 50px;
+                display: block !important;
+                cursor: pointer;
+            }
+
+            .hoverMenu {
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: black;
+                text-align: center;
+                overflow: hidden;
+                max-height: 0;
+                transition: max-height 0.5s ease-out;
+                z-index: 99;
+            }
+
+            .hoverMenu li {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .hoverMenu a {
+                display: block;
+                color: white;
+                padding: 15px 0;
+                font-weight: 600;
+                text-decoration: none;
+                border-bottom: 1px solid #333;
+                transition: background 0.3s ease;
+            }
+
+            .hoverMenu a:hover {
+                background-color: #333;
+            }
+
+            .hoverMenu.active {
+                max-height: 500px;
             }
         }
 
@@ -99,6 +157,11 @@
 
         .photo img {
             height: 650px;
+        }
+
+        .nameBox {
+            flex-direction: column;
+            align-items: flex-start;
         }
 
         .nameBox h3 {
@@ -147,6 +210,77 @@
             width: 30px;
         }
 
+        @media (max-width: 1023px) {
+
+            .Header {
+                background: linear-gradient(135deg, #1c1d1c 40%, #333333 100%);
+                padding: 0 0 50px 0;
+                height: auto;
+            }
+
+            .InHeader {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+                margin-top: 0;
+                gap: 40px;
+                width: 100%;
+            }
+
+            .NamePhoto {
+                width: 100%;
+                background-color: #0e0e0e;
+                text-align: center;
+            }
+
+            .nameBox {
+                width: 90%;
+                flex-direction: column;
+                align-items: center;
+                margin-inline: auto;
+                padding-top: 50px;
+            }
+
+            .nameBox h3 {
+                font-size: 22px;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+
+            .nameBox h1 {
+                font-size: 38px;
+                color: #ffffff;
+            }
+
+            .nameBox p {
+                font-size: 18px;
+                color: #d3d3d3;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+
+            .contactPlatfroms {
+                justify-content: center;
+                gap: 15px;
+                margin-bottom: 60px;
+            }
+
+            .photo {
+                width: 80%;
+                max-width: 350px;
+            }
+
+            .photo img {
+                width: 100%;
+                height: auto;
+                max-width: 500px;
+                border-radius: 20px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+            }
+
+        }
+
         section {
             padding: 100px 0;
         }
@@ -160,6 +294,10 @@
 
         .skills-section-div {
             gap: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         .section-heading::after {
@@ -236,9 +374,9 @@
         .portfolio-section div {
             margin-top: 30px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            width: 850px;
+            width: 80vw;
             flex-wrap: wrap;
             gap: 50px;
         }
@@ -257,7 +395,7 @@
 
         #portfolio1 {
             background-image: url('/Images/portfolio1.png');
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
         }
 
