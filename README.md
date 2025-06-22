@@ -29,6 +29,7 @@ https://gauravmane31.github.io/
 ## 📸 Screenshots
 
 Phone : (https://github.com/user-attachments/assets/0a368674-99eb-4c82-a146-1f1b1a534052)
+
 Laptop : (https://github.com/user-attachments/assets/58d13546-d053-4411-9688-51bcab46c9cc)
 
 
