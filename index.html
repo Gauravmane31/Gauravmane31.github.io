@@ -10,12 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <!-- Navbar -->
     <nav class="navbar alignCenterCenter">
+        <div class="hoverMenu">
+            <li>
+                <a href="#about">ABOUT ME</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT ME</a>
+            </li>
+        </div>
         <div class="InNavbar width80vw alignCenterCenter">
             <div class="NavBoxes NavBox1 alignCenterCenter">
                 <img src="Images/Logo.png" alt="Logo" id="logoimg">
@@ -27,12 +37,15 @@
                 <a href="#portfolio">PORTFOLIO</a>
                 <a href="#contact">CONTACT ME</a>
             </div>
+            <div class="hoverMenuImg">
+                <img src="/Images/hoverMenu.png" alt="" id="menuimg">
+            </div>
         </div>
     </nav>
     <header class="Header alignCenterCenter">
         <div class="InHeader width80vw alignCenterCenter">
             <div class="NamePhoto fontfamily">
-                <div class="nameBox">
+                <div class="nameBox alignCenterCenter">
                     <h3>Hi, I am</h3>
                     <h1>Gaurav Mane</h1>
                     <p>Front-end Developer / C++ Programmer</p>
